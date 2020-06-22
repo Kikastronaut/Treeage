@@ -1,0 +1,2 @@
+module MasterControllerHelper
+end
