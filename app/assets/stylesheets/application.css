@@ -13,3 +13,117 @@
  *= require_tree .
  *= require_self
  */
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+  #primary {
+    width: 67%;
+  }
+  #secondary {
+    width: 30%;
+    margin-left: 3%;
+  }
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+  #primary {
+    width: 100%;
+  }
+  #secondary {
+    width: 100%;
+    margin: 0;
+    border: none;
+  }
+}
+
+html {
+  background: url(https://treeagewebsite.s3.us-east-2.amazonaws.com/michael-sturgeon-aDDQbv8wsmg-unsplash.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.menu {
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 16px;
+  min-width: 400px;
+  max-width: ;
+}
+*/
+h1 {
+  margin: auto;
+  width: 50%;
+  padding-top: 8%;
+  color: red;
+}
+
+.collapsible-menu label {
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 30px;
+  display: block;
+  cursor: pointer;
+  background: url("Hamburger_Menu_Icon.svg") no-repeat left center;
+  background: url("https://treeagewebsite.s3.us-east-2.amazonaws.com/logo_alone.png");
+  padding: 10px 0 10px 50px;
+}
+
+input#menu {
+  display: none;
+}
+
+.menu-content {
+  max-height: 0;
+  overflow: hidden;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 26px;
+  padding: 0 0 0 80px;
+}
+.collapsible-menu {
+  background-color: #4d3c23;
+  opacity: 0.7;
+  padding: 0px 30px;
+  border-bottom: 8px solid #d36c00;
+
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  background-size: cover;
+  margin: -8px;
+}
+.collapsible-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+.collapsible-menu a {
+  display: block;
+  opacity: 1;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+.menu {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  height: auto;
+  position: absolute;
+  margin-top: 80%;
+  z-index: ;
+}
+
+/*.menu_logo {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+
+  */
+
+/* Toggle Effect */
+input:checked ~ label {
+  background: url("cancel_icon.svg") no-repeat left center;
+  background: url("https://treeagewebsite.s3.us-east-2.amazonaws.com/logo_alone.png")
+    no-repeat center;
+}
+input:checked ~ .menu-content {
+  max-height: 100%;
+}
