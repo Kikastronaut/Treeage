@@ -57,6 +57,7 @@ h1 {
   width: 50%;
   padding-top: 8%;
   color: red;
+  position: static;
 }
 
 .collapsible-menu label {
@@ -65,12 +66,21 @@ h1 {
   display: block;
   cursor: pointer;
   background: url("Hamburger_Menu_Icon.svg") no-repeat left center;
-  background: url("https://treeagewebsite.s3.us-east-2.amazonaws.com/logo_alone.png");
   padding: 10px 0 10px 50px;
 }
 
 input#menu {
   display: none;
+}
+
+input#logo {
+  display: none;
+}
+
+.menu-logo {
+  position: relative;
+  top: -60px;
+  left: calc((100vw - 200px) / 2);
 }
 
 .menu-content {
@@ -84,8 +94,7 @@ input#menu {
   background-color: #4d3c23;
   opacity: 0.7;
   padding: 0px 30px;
-  border-bottom: 8px solid #d36c00;
-
+  border-bottom: 8px solid #f79f2d;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   background-size: cover;
   margin: -8px;
@@ -108,22 +117,14 @@ input#menu {
   height: auto;
   position: absolute;
   margin-top: 80%;
-  z-index: ;
 }
 
-/*.menu_logo {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-
-  */
-
-/* Toggle Effect */
+/*
 input:checked ~ label {
-  background: url("cancel_icon.svg") no-repeat left center;
-  background: url("https://treeagewebsite.s3.us-east-2.amazonaws.com/logo_alone.png")
-    no-repeat center;
-}
+  background: url("cancel_icon.svg") no-repeat left center,
+    url("https://treeagewebsite.s3.us-east-2.amazonaws.com/logo_alone.png")
+      center no-repeat;
+} */
 input:checked ~ .menu-content {
   max-height: 100%;
 }

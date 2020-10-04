@@ -1,0 +1,35 @@
+.about_title {
+  position: relative;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 60px;
+  color: black;
+  border: 8px solid #f79f2d;
+  border-radius: 15px;
+  background-color: white;
+  opacity: 0.75;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.about_blurb {
+  position: relative;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: "IM Fell Great Primer SC", serif;
+  font-size: 25px;
+  color: black;
+  border: 8px solid #f79f2d;
+  border-radius: 15px;
+  background-color: white;
+  opacity: 0.75;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
