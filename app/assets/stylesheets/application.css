@@ -65,7 +65,7 @@ h1 {
   font-size: 30px;
   display: block;
   cursor: pointer;
-  background: url("Hamburger_Menu_Icon.svg") no-repeat left center;
+  background: url("/Hamburger_Menu_Icon.svg") no-repeat left center;
   padding: 10px 0 10px 50px;
 }
 
