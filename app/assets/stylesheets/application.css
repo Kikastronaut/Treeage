@@ -62,11 +62,12 @@ h1 {
 
 .collapsible-menu label {
   font-family: "IM Fell Great Primer SC", serif;
-  font-size: 30px;
+  font-size: 42px;
   display: block;
   cursor: pointer;
   background: url("/Hamburger_Menu_Icon.svg") no-repeat left center;
-  padding: 10px 0 10px 50px;
+  background-size: 60px 60px;
+  padding: 10px 0 10px 80px;
 }
 
 input#menu {
@@ -87,13 +88,16 @@ input#logo {
   max-height: 0;
   overflow: hidden;
   font-family: "IM Fell Great Primer SC", serif;
-  font-size: 26px;
-  padding: 0 0 0 80px;
+  font-size: 50px;
+  padding: 0 0 0 90px;
+  font-weight: 400;
+  border-bottom: 8px black;
 }
+
 .collapsible-menu {
   background-color: #4d3c23;
   opacity: 0.7;
-  padding: 0px 30px;
+  padding: 30px 30px;
   border-bottom: 8px solid #f79f2d;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
   background-size: cover;
